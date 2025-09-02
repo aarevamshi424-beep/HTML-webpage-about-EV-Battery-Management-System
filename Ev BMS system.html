@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electric Vehicle BMS Management</title>
+</head>
+<body>
+  <head>
+     <style>
+    h1{
+      background-color: aqua;
+      text-align: center;
+      padding:10px;
+      }
+       </style>
+       </head>
+       <h1>Electric Vehicle Battery Management System (BMS)</h1>
+    <figure style="text-align: center;">
+    <img src="https://www.ktron.in/wp-content/uploads/2020/02/4s-10a-bms-connection-diagram.jpg" alt="BMS" width="300" height="500">
+    </figure>
+    <p>
+        A <b>Battery Management System (BMS)</b> is an electronic system that manages a 
+        rechargeable battery (cell or pack)
+        .rechargeable batteries (like lithium-ion packs used in EVs, solar systems, laptops, etc.). It ensures the battery operates safely, efficiently, 
+    </p>
+    </ul>
+   <h2> Introduction to BMS</h2>
+
+    A Battery Management System (BMS) is an electronic control unit it protects lithium-ion batteries used in electric vehicles (EVs).
+    <h3>Topics</h3>
+<ol>
+  <li>Introduction to BMS</li>
+  <li>Importance of BMS</li>
+  <li>Main functions of BMS</li>
+  <li>Where BMS is used</li>
+  <li>Applications of BMS</li>
+</ol>
+
+    <h2>Main Functions of BMS</h2>
+     <li>Tracks voltage, current, and temperature of each battery cell.</li>
+    <li>Monitors the state of charge (SOC) how much battery is left.</li>
+    <li>Estimates the state of health (SOH) battery life & efficiency.</li>
+    <li>Prevents overcharging (which can damage cells).</li>
+    <li>Prevents over-discharging (which can shorten battery life).</li>
+    <li> Avoids overheating or short circuits.</li>
+    <li>Keeps all cells at the same voltage level.</li>
+   <li>Uses techniques like passive balancing (dissipating extra charge) or active balancing (redistributing charge).</li>
+    <li>Sends data to EV controllers, display units, or cloud systems.</li>
+    <li>Uses protocols like CAN bus.</li>
+    <li>Shuts down or isolates the battery during faults.</li>
+   <li>Ensures safe operation under different environmental conditions.</li>
+    <h3>Importance of BMS in Electric Vehicles</h3>
+    <p>
+        <li>In EVs, the BMS plays a critical role in ensuring performance and safety. 
+        Without a proper BMS, batteries can degrade faster or become unsafe.
+        protects.</li>
+        <li>Without using BMS the Battery pack can't made, It can moniter the cell voltages in each 
+        series.Each series contains 3.7-4.2volts of li-ion cell. </li>
+        <ol></ol>
+    </p>
+        <h3>Where BMS is Used</h3>
+        <li>Electric Vehicles (EVs, e-bikes, e-buses)</li>
+       <li> Renewable energy storage (solar, wind)</li>
+        <li>Consumer electronics (laptops, phones, drones)</li>
+        <li>UPS & industrial battery backup systems</li>
+         <h2>Main components</h2>
+           <p><b>1.Battery Cells</b></p>
+          <li>The smallest unit (like AA batteries, but lithium-ion).</li>
+           <li>Different chemistries:</li>
+          <li><b>NMC (Nickel Manganese Cobalt)</b> → high energy density.</li>
+          <li><b>LFP (Lithium Iron Phosphate)</b> → safer, longer life, slightly less energy density.</li>
+          <li><b>NCA (Nickel Cobalt Aluminum)</b> → used by Tesla for long ranges.</li>
+          <p><b>2.Battery Modules</b></p>
+          <li>Groups of cells connected in series & parallel to achieve the required voltage and capacity.</li>
+          <p><b>3.Battery Pack</b></p>
+          <li>Combination of modules + sensors + cooling system inside a protective casing.</li>
+           <p><b>4.Battery Management System (BMS)</b>
+            <li>The "brain" of the battery.</li>
+            <p><b>5.Functions:</b></p>
+            <li>Monitors voltage, current, and temperature.</li>
+             <li>Balances charge between cells.</li>
+            <li>Prevents overcharging & deep discharging.</li>
+             <li>Ensures safety.</li>
+            <p><b>6.Thermal Management System</b></p>
+             <li>Keeps batteries at an optimal temperature (20–40 °C).</li>
+            <li>Methods: air cooling, liquid cooling, or phase change materials.</li>
+             <li>High-Voltage Wiring & Safety Systems</li>
+             <li>Fuses, contactors, relays, and insulation to prevent short circuits or fire risks.</li>
+             <h2>Key Parameters of EV Batteries</h2>
+              <li>Capacity (kWh): Determines how much energy the battery stores (like the fuel tank size).</li>
+              <li>Voltage (V): Higher voltage allows more efficient power transfer (modern EVs use 400–800V systems).</li>
+              <li>Energy Density: Energy per unit weight (Wh/kg) or volume (Wh/L).</li>
+             <li>Cycle Life: Number of charge–discharge cycles before capacity drops (usually 1000–3000+ cycles).</li>
+               <li>State of Charge (SOC): How full the battery is (100%).</li>
+                <li>State of Health (SOH): Indicates aging level of the battery.</li>
+                <head>
+                <table border="1"style='height:300px; width:1000px'>
+                  <h2><B>Examples of EV Battery sizes</B></h2>
+                  <tr>
+                    <th>Electric car Model</th>
+                    <th>Battery Kilowatts(in hours)</th>
+                    <th>Range in KM</th>
+                    <th>AC charging</th>
+                    <th>DC charging </th>
+                    <th>Wireless charging</th>
+                  </tr>
+                  <tr>
+                  <th>Nissan Leaf</th>
+                    <th>40KWH</th>
+                    <th>250Kilometers</th>
+                    <th>11KW</th>
+                    <th>240KW(77.4Kw battery)</th>
+                    <th>3.2KW pad</th>
+                    </tr>
+                    <tr>
+                      <th>Tesla Model 3 lomg range</th>
+                    <th>82KWH</th>
+                    <th>580Kilometers</th>
+                    <th>11KW</th>
+                    <th>135KW(400v Battery)</th>
+                    <th>2.5KW pad</th>
+                    </tr>
+                    <tr>
+                      <th>Tata Nexon EV</th>
+                    <th>40.5KWH</th>
+                    <th>465Kilometers</th>
+                    <th>7.2KW</th>
+                    <th>250KW</th>
+                    <th>None</th>
+                    </tr>
+                    <tr>
+                      <th>Porsche Macan Electric</th>
+                       <th>100KWH</th>
+                       <th>463-507Kilometers</th>
+                    <th>11KW</th>
+                    <th>270KW</th>
+                    <th>None</th>
+                    </tr>
+                    <tr>
+                      <th>Audi A6 e-tron</th>
+                    <th>100KWH</th>
+                    <th>484Kilometers(Real world)</th>
+                    <th>15KW</th>
+                    <th>270KW(800v Battery)</th>
+                    <th>3KW Pad</th>
+                    </tr>
+                  </table>
+
+                
+                  </head>
+                
+      <style>
+      footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      position:
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <footer>
+    <p>&copy; 2025 My Website | All Rights Reserved</p>
+  </footer>
+</body>
+    </body>
+</html>
+
+
